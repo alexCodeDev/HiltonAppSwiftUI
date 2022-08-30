@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F23D71C28BE275C0090475E /* HiltonAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D71B28BE275C0090475E /* HiltonAppSwiftUIApp.swift */; };
+		1F23D71E28BE275C0090475E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D71D28BE275C0090475E /* ContentView.swift */; };
+		1F23D72028BE275E0090475E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F23D71F28BE275E0090475E /* Assets.xcassets */; };
+		1F23D72328BE275E0090475E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F23D72228BE275E0090475E /* Preview Assets.xcassets */; };
+		1F23D72528BE275E0090475E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D72428BE275E0090475E /* Persistence.swift */; };
+		1F23D72828BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D72628BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld */; };
+		1F23D73228BE275E0090475E /* HiltonAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D73128BE275E0090475E /* HiltonAppSwiftUITests.swift */; };
+		1F23D73C28BE275E0090475E /* HiltonAppSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D73B28BE275E0090475E /* HiltonAppSwiftUIUITests.swift */; };
+		1F23D73E28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D73D28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F23D72E28BE275E0090475E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F23D71028BE275C0090475E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F23D71728BE275C0090475E;
+			remoteInfo = HiltonAppSwiftUI;
+		};
+		1F23D73828BE275E0090475E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F23D71028BE275C0090475E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F23D71728BE275C0090475E;
+			remoteInfo = HiltonAppSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F23D71828BE275C0090475E /* HiltonAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiltonAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F23D71B28BE275C0090475E /* HiltonAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiltonAppSwiftUIApp.swift; sourceTree = "<group>"; };
+		1F23D71D28BE275C0090475E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F23D71F28BE275E0090475E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F23D72228BE275E0090475E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F23D72428BE275E0090475E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1F23D72728BE275E0090475E /* HiltonAppSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HiltonAppSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		1F23D72D28BE275E0090475E /* HiltonAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiltonAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F23D73128BE275E0090475E /* HiltonAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiltonAppSwiftUITests.swift; sourceTree = "<group>"; };
+		1F23D73728BE275E0090475E /* HiltonAppSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiltonAppSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F23D73B28BE275E0090475E /* HiltonAppSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiltonAppSwiftUIUITests.swift; sourceTree = "<group>"; };
+		1F23D73D28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiltonAppSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F23D71528BE275C0090475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F23D72A28BE275E0090475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F23D73428BE275E0090475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F23D70F28BE275C0090475E = {
+			isa = PBXGroup;
+			children = (
+				1F23D71A28BE275C0090475E /* HiltonAppSwiftUI */,
+				1F23D73028BE275E0090475E /* HiltonAppSwiftUITests */,
+				1F23D73A28BE275E0090475E /* HiltonAppSwiftUIUITests */,
+				1F23D71928BE275C0090475E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F23D71928BE275C0090475E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F23D71828BE275C0090475E /* HiltonAppSwiftUI.app */,
+				1F23D72D28BE275E0090475E /* HiltonAppSwiftUITests.xctest */,
+				1F23D73728BE275E0090475E /* HiltonAppSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F23D71A28BE275C0090475E /* HiltonAppSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				1F23D71B28BE275C0090475E /* HiltonAppSwiftUIApp.swift */,
+				1F23D71D28BE275C0090475E /* ContentView.swift */,
+				1F23D71F28BE275E0090475E /* Assets.xcassets */,
+				1F23D72428BE275E0090475E /* Persistence.swift */,
+				1F23D72628BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld */,
+				1F23D72128BE275E0090475E /* Preview Content */,
+			);
+			path = HiltonAppSwiftUI;
+			sourceTree = "<group>";
+		};
+		1F23D72128BE275E0090475E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F23D72228BE275E0090475E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F23D73028BE275E0090475E /* HiltonAppSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F23D73128BE275E0090475E /* HiltonAppSwiftUITests.swift */,
+			);
+			path = HiltonAppSwiftUITests;
+			sourceTree = "<group>";
+		};
+		1F23D73A28BE275E0090475E /* HiltonAppSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F23D73B28BE275E0090475E /* HiltonAppSwiftUIUITests.swift */,
+				1F23D73D28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = HiltonAppSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F23D71728BE275C0090475E /* HiltonAppSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F23D74128BE275E0090475E /* Build configuration list for PBXNativeTarget "HiltonAppSwiftUI" */;
+			buildPhases = (
+				1F23D71428BE275C0090475E /* Sources */,
+				1F23D71528BE275C0090475E /* Frameworks */,
+				1F23D71628BE275C0090475E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiltonAppSwiftUI;
+			productName = HiltonAppSwiftUI;
+			productReference = 1F23D71828BE275C0090475E /* HiltonAppSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F23D72C28BE275E0090475E /* HiltonAppSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F23D74428BE275E0090475E /* Build configuration list for PBXNativeTarget "HiltonAppSwiftUITests" */;
+			buildPhases = (
+				1F23D72928BE275E0090475E /* Sources */,
+				1F23D72A28BE275E0090475E /* Frameworks */,
+				1F23D72B28BE275E0090475E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F23D72F28BE275E0090475E /* PBXTargetDependency */,
+			);
+			name = HiltonAppSwiftUITests;
+			productName = HiltonAppSwiftUITests;
+			productReference = 1F23D72D28BE275E0090475E /* HiltonAppSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F23D73628BE275E0090475E /* HiltonAppSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F23D74728BE275E0090475E /* Build configuration list for PBXNativeTarget "HiltonAppSwiftUIUITests" */;
+			buildPhases = (
+				1F23D73328BE275E0090475E /* Sources */,
+				1F23D73428BE275E0090475E /* Frameworks */,
+				1F23D73528BE275E0090475E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F23D73928BE275E0090475E /* PBXTargetDependency */,
+			);
+			name = HiltonAppSwiftUIUITests;
+			productName = HiltonAppSwiftUIUITests;
+			productReference = 1F23D73728BE275E0090475E /* HiltonAppSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F23D71028BE275C0090475E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1F23D71728BE275C0090475E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1F23D72C28BE275E0090475E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1F23D71728BE275C0090475E;
+					};
+					1F23D73628BE275E0090475E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1F23D71728BE275C0090475E;
+					};
+				};
+			};
+			buildConfigurationList = 1F23D71328BE275C0090475E /* Build configuration list for PBXProject "HiltonAppSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F23D70F28BE275C0090475E;
+			productRefGroup = 1F23D71928BE275C0090475E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F23D71728BE275C0090475E /* HiltonAppSwiftUI */,
+				1F23D72C28BE275E0090475E /* HiltonAppSwiftUITests */,
+				1F23D73628BE275E0090475E /* HiltonAppSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F23D71628BE275C0090475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F23D72328BE275E0090475E /* Preview Assets.xcassets in Resources */,
+				1F23D72028BE275E0090475E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F23D72B28BE275E0090475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F23D73528BE275E0090475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F23D71428BE275C0090475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F23D72528BE275E0090475E /* Persistence.swift in Sources */,
+				1F23D71E28BE275C0090475E /* ContentView.swift in Sources */,
+				1F23D71C28BE275C0090475E /* HiltonAppSwiftUIApp.swift in Sources */,
+				1F23D72828BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F23D72928BE275E0090475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F23D73228BE275E0090475E /* HiltonAppSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F23D73328BE275E0090475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F23D73E28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift in Sources */,
+				1F23D73C28BE275E0090475E /* HiltonAppSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F23D72F28BE275E0090475E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F23D71728BE275C0090475E /* HiltonAppSwiftUI */;
+			targetProxy = 1F23D72E28BE275E0090475E /* PBXContainerItemProxy */;
+		};
+		1F23D73928BE275E0090475E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F23D71728BE275C0090475E /* HiltonAppSwiftUI */;
+			targetProxy = 1F23D73828BE275E0090475E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F23D73F28BE275E0090475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F23D74028BE275E0090475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F23D74228BE275E0090475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiltonAppSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3J9U64265Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexcode.HiltonAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F23D74328BE275E0090475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HiltonAppSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3J9U64265Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexcode.HiltonAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F23D74528BE275E0090475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9U64265Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexcode.HiltonAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiltonAppSwiftUI.app/HiltonAppSwiftUI";
+			};
+			name = Debug;
+		};
+		1F23D74628BE275E0090475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9U64265Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexcode.HiltonAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiltonAppSwiftUI.app/HiltonAppSwiftUI";
+			};
+			name = Release;
+		};
+		1F23D74828BE275E0090475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9U64265Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexcode.HiltonAppSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiltonAppSwiftUI;
+			};
+			name = Debug;
+		};
+		1F23D74928BE275E0090475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3J9U64265Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alexcode.HiltonAppSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiltonAppSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F23D71328BE275C0090475E /* Build configuration list for PBXProject "HiltonAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F23D73F28BE275E0090475E /* Debug */,
+				1F23D74028BE275E0090475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F23D74128BE275E0090475E /* Build configuration list for PBXNativeTarget "HiltonAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F23D74228BE275E0090475E /* Debug */,
+				1F23D74328BE275E0090475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F23D74428BE275E0090475E /* Build configuration list for PBXNativeTarget "HiltonAppSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F23D74528BE275E0090475E /* Debug */,
+				1F23D74628BE275E0090475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F23D74728BE275E0090475E /* Build configuration list for PBXNativeTarget "HiltonAppSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F23D74828BE275E0090475E /* Debug */,
+				1F23D74928BE275E0090475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F23D72628BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F23D72728BE275E0090475E /* HiltonAppSwiftUI.xcdatamodel */,
+			);
+			currentVersion = 1F23D72728BE275E0090475E /* HiltonAppSwiftUI.xcdatamodel */;
+			path = HiltonAppSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F23D71028BE275C0090475E /* Project object */;
+}
