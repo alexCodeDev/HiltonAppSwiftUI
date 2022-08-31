@@ -16,6 +16,8 @@
 		1F23D73228BE275E0090475E /* HiltonAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D73128BE275E0090475E /* HiltonAppSwiftUITests.swift */; };
 		1F23D73C28BE275E0090475E /* HiltonAppSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D73B28BE275E0090475E /* HiltonAppSwiftUIUITests.swift */; };
 		1F23D73E28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D73D28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift */; };
+		1F23D74B28BE32150090475E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D74A28BE32150090475E /* CircleImage.swift */; };
+		1F23D74D28BE395E0090475E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23D74C28BE395E0090475E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		1F23D73728BE275E0090475E /* HiltonAppSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiltonAppSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F23D73B28BE275E0090475E /* HiltonAppSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiltonAppSwiftUIUITests.swift; sourceTree = "<group>"; };
 		1F23D73D28BE275E0090475E /* HiltonAppSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiltonAppSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F23D74A28BE32150090475E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1F23D74C28BE395E0090475E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				1F23D72428BE275E0090475E /* Persistence.swift */,
 				1F23D72628BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld */,
 				1F23D72128BE275E0090475E /* Preview Content */,
+				1F23D74A28BE32150090475E /* CircleImage.swift */,
+				1F23D74C28BE395E0090475E /* MapView.swift */,
 			);
 			path = HiltonAppSwiftUI;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F23D72528BE275E0090475E /* Persistence.swift in Sources */,
+				1F23D74D28BE395E0090475E /* MapView.swift in Sources */,
 				1F23D71E28BE275C0090475E /* ContentView.swift in Sources */,
 				1F23D71C28BE275C0090475E /* HiltonAppSwiftUIApp.swift in Sources */,
 				1F23D72828BE275E0090475E /* HiltonAppSwiftUI.xcdatamodeld in Sources */,
+				1F23D74B28BE32150090475E /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
